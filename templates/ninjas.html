@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="A Landing Page" content="blah blah blah blah blah blah blah">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='myscript.js') }}"></script>
+
+    <title>The Landing Page</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="/">HOME</a>
+            <a href="/ninjas">NINJAS</a>
+            <a href="/dojos/new">DOJO</a>
+        </div>
+        <h1>Hello Ninjas!</h1>
+        
+        <h4>Welcome to the club, matching outfits? Of course.</h4>
+        <br>
+        <p>The true ninja doesn't make a splash at all.</p>
+        <br><br>
+        <img class="landing_pics" src="{{ url_for('static', filename='img/AcuraWoods.jpg') }}" alt="An Acura in the Woods">
+        
+        <!-- <form action='' method=''>
+            Name: <input type='text' name='name' class="firsttxt text"><br>
+            Email: <input type='text' name='email' class="text"><br>
+            <input type='submit' value='CREATE' class="button">
+        </form> -->
+    
+    </div>
+</body>
+</html>

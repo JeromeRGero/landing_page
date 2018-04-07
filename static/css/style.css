@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    vertical-align: top;
+    width: 500px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+#header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+#header a{
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+    margin: 0px 20px;
+}
+form{
+    min-height: 100px;
+    padding: 20px;
+    background: radial-gradient(rgb(0, 183, 255), white, white);
+}
+form input{
+    margin-top: 10px;
+}
+.firsttxt{
+    margin-top: 25px;
+}
+.text{
+    width: 110px;
+}
+.button{
+    border: none;
+    padding: 2px 10px;
+    background-color: rgb(73, 255, 164);
+    border-radius: 3px;
+}
+
+.landing_pics{
+    width: 470px;
+    border-radius: 15px;
+}

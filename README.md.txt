@@ -1,0 +1,1 @@
+Please go to /dojos/new for the form
